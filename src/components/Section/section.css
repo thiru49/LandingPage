@@ -1,0 +1,26 @@
+
+
+.section-container {
+    width: 100%; /* Set width as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .section-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px; /* Adjust gap between elements */
+  }
+  
+  .section-number {
+    font-size: 104px; /* Adjust font size as needed */
+    color: #cbd5e0; /* Adjust text color as needed */
+  }
+  
+  .section-paragraph {
+    margin: 0; /* Remove default margin */
+    color: #000000; /* Adjust text color as needed */
+  }
+  

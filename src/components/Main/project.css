@@ -1,0 +1,68 @@
+
+.projects-container {
+    margin-top: 10px;
+  }
+  
+  .projects-section {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 550px;
+  }
+  
+  .project {
+    display: flex;
+    flex-direction: rwo;
+    gap: 10px;
+  }
+  
+  .project-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #cbd5e0;
+  }
+  .project-content div{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #cbd5e0;
+    gap: 16px;
+  }
+  
+  .project-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 64px;
+  }
+  
+  .project-image {
+    width: 100%;
+  }
+  
+  
+  .project-image-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .project-images-container {
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+  }
+  
+  .view-projects-button {
+    margin-top: 8px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  

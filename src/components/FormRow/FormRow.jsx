@@ -1,0 +1,39 @@
+import React, { useState } from 'react';
+import './form.css'
+function FormRow({ name }) {
+  const [focused, setFocused] = useState(false);
+
+  return (
+    <div className={`form-row ${focused ? 'focused' : ''}`}>
+      <label className={`form-label ${focused ? 'focused-label' : ''}`} htmlFor={name}>
+        {name}
+      </label>
+      {name === 'message' ? (
+        <textarea
+          id={name}
+          className="form-input"
+          onFocus={() => setFocused(true)}
+          onBlur={(e) => {
+            if (!e.target.value) {
+              setFocused(false);
+            }
+          }}
+        />
+      ) : (
+        <input
+          id={name}
+          type="text"
+          className="form-input"
+          onFocus={() => setFocused(true)}
+          onBlur={(e) => {
+            if (!e.target.value) {
+              setFocused(false);
+            }
+          }}
+        />
+      )}
+    </div>
+  );
+}
+
+export default FormRow;

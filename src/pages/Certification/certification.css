@@ -1,0 +1,19 @@
+
+
+.certifications-heading {
+    color: #2d3748;
+    font-size: 5rem;
+    line-height: 64px;
+    font-weight: bold;
+  }
+  
+  .certificates-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .certificate-image {
+    width: 100%;
+    height: auto;
+  }
+  

@@ -1,0 +1,18 @@
+
+
+.heading {
+    color: #cbd5e0; /* Default text color */
+    font-size: 1.875rem; /* Equivalent to text-3xl */
+    font-weight: 300; /* Equivalent to font-[300] */
+  }
+  
+  .small-heading {
+    font-size: 2.5rem; /* Equivalent to text-2xl for small headings */
+
+  }
+  
+  .large-heading {
+    font-size: 4rem; /* Equivalent to text-6xl for large headings */
+    text-transform: uppercase; /* Equivalent to uppercase */
+  }
+  

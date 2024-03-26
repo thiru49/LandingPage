@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+    position: relative;
+    transition: all;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 64px;
+  }
+ 
+  .nav-link-item {
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 4px;
+  }
+  
+  .nav-link-item:hover {
+    border-bottom: 2px solid #718096;
+    border-top: 2px solid #718096;
+    transition: all;
+  }
+  
+  .nav-link-item.active {
+    border-bottom: 4px solid #718096;
+    border-top: 4px solid #718096;
+  }
+  
+
+  
+ 
+  
+
+  

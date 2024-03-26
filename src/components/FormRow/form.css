@@ -1,0 +1,38 @@
+
+
+.form-row {
+  position: relative;
+  margin-top: 1.4rem;
+
+}
+
+.form-label {
+  position: absolute;
+  top: 0.5rem;
+  left: 1rem;
+  transition: all 0.3s;
+  color: #8D8D8D;
+
+}
+
+.form-label.focused-label {
+  top: -1rem;
+  font-size: 0.75rem;
+  color: #4a5568;
+}
+
+.form-input {
+  width: 100%;
+  background-color: #F3F3F3;
+  padding: 0.75rem;
+  padding-left: 2.5rem;
+  border-radius: 0.25rem;
+  border: none;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+.form-input:focus {
+  background-color: #ffffff;
+  border: 1px solid #2563eb;
+}
