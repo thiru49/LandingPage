@@ -30,7 +30,7 @@ function About() {
                     <p className='paragraph'>{content.para1}</p>
                 </section>
                 <section className='button-section'>
-                    <Button name="READ MORE" img={leftArow} />
+                    <Button  />
                 </section>
             </div>
         </section>

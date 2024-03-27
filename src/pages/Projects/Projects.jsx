@@ -3,7 +3,9 @@ import Heading from '../../components/Heading/Heading';
 import Button from '../../components/Button/Button';
 import { projects } from '../../constants';
 import './project.css'
+
 const Projects = () => {
+  
   return (
     <div>
       <Heading>Our</Heading>

@@ -2,6 +2,8 @@ import React from 'react';
 import Heading from '../../components/Heading/Heading';
 import { gallery } from '../../constants';
 import './gallery.css'
+
+
 const Gallery = () => {
   return (
     <div>
