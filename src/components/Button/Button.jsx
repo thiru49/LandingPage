@@ -9,12 +9,12 @@ const Button = ({ icon, name, color, style }) => {
       style={style}
     >
       {name && <span>{name}</span>}
-      {icon}
+      {icon === "leftArow" ? <p>&larr;</p> : <p>&rarr;</p> }
     </button>
   );
 };
 
-Button.prototype = {
+Button.propTypes = {
   icon: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   color: PropTypes.oneOf(["black", "white"]),

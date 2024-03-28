@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 import './form.css'
+
 function FormRow({ name }) {
   const [focused, setFocused] = useState(false);
 
@@ -34,6 +36,10 @@ function FormRow({ name }) {
       )}
     </div>
   );
+}
+
+FormRow.prototype = {
+  name:PropTypes.string.isRequired
 }
 
 export default FormRow;

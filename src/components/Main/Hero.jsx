@@ -12,8 +12,8 @@ const Hero = () => {
           <h1 className='title'>Lorum</h1>
         </div>
         <div className='button-container'>
-          <Button img='rightArow'/>
-          <Button img='leftArow'/>
+          <Button name='' icon='rightArow'/>
+          <Button name='' icon='leftArow'/>
         </div>
         <div>
           <img src={slideNumber} alt="slideNumber" />
@@ -24,7 +24,7 @@ const Hero = () => {
           <img src={rectangle} alt="" className='image'/>
         </div>
         <div className='button-container'>
-          <Button name="VIEW PROJECT" img='leftArow'/>
+          <Button name="VIEW PROJECT" icon='rightArow'/>
         </div>
       </section>
     </main>

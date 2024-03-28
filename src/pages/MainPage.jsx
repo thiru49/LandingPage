@@ -7,20 +7,13 @@ import Contact from '../components/Main/Contact'
 
 const MainPage = () => {
   return (
-<>
-
-
-  <Hero/>
-     <About/>
-     
-      <Focus/>
-     
-      <Projects/>
-     
-      <Contact/> 
- 
-    
-</>
+  <>
+    <Hero/>
+    <About/>
+    <Focus/> 
+    <Projects/>
+    <Contact/>   
+  </>
   )
 }
 

@@ -11,7 +11,7 @@
   }
   
   .button span {
-    color: #000; /* Default text color */
+    color: #000;
   }
   
   .button:hover {
@@ -20,14 +20,14 @@
   
   .black {
     background-color: #333333;
- /* Change this to the desired background color */
-    color:white; /* Change this to the desired text color */
+
+    color:white;
   }
   .black span {
     color: white;
   }
   .white {
-    background-color: #ffffff; /* Change this to the desired background color */
-    color: #000000; /* Change this to the desired text color */
+    background-color: #ffffff;
+    color: #000000; 
   }
   

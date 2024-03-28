@@ -22,7 +22,7 @@ function Contact() {
           </div>
         </div>
         <div className='contact-button'>
-          <Button name="SEND EMAIL" img='leftArow' color='black'/>
+          <Button name="SEND EMAIL" icon='rightArow' color='black'/>
         </div>
       </section>
  

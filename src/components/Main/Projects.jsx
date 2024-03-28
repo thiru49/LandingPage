@@ -15,7 +15,7 @@ const Projects = () => {
                 <div>
                   <h1 className='project-title'>Sample <br />Project</h1>
                   
-                  <Button name='VIEW MORE' img='leftArow' color='black' /> 
+                  <Button name='VIEW MORE' icon='rightArow' color='black' /> 
                 </div>
           
                 <img src={rectangle17} alt="" className='project-image' />
@@ -31,10 +31,9 @@ const Projects = () => {
           </div>
         </section>
         <div className='view-projects-button'>
-          <Button name='VIEW PROJECTS' color='black' img='leftArow' />
+          <Button name='VIEW MORE' icon='rightArow' color='black'/>
         </div>
       </div>
-
   );
 }
 
