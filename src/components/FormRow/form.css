@@ -3,7 +3,7 @@
 .form-row {
   position: relative;
   margin-top: 1.4rem;
-
+  
 }
 
 .form-label {
@@ -12,7 +12,9 @@
   left: 1rem;
   transition: all 0.3s;
   color: #8D8D8D;
-
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 4%;
 }
 
 .form-label.focused-label {
@@ -26,7 +28,6 @@
   background-color: #F3F3F3;
   padding: 0.75rem;
   padding-left: 2.5rem;
-  border-radius: 0.25rem;
   border: none;
   outline: none;
   transition: background-color 0.3s;

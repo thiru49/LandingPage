@@ -17,7 +17,7 @@ const Contact = () => {
           <h1 className='phone'>{contact.phone}</h1>
           <p className='email'>{contact.email}</p>
           <div>
-            <Button color='black' name='CONTACT US' icon='rightArow'/>
+            <Button color='black' name='CONTACT US' icon='rightArrow'/>
           </div>
         </div>
       </section>
@@ -27,7 +27,7 @@ const Contact = () => {
           className='map-iframe'
           allowFullScreen="" 
           loading="lazy" 
-          referrepolicy="no-referrer-when-downgrade">
+          referrerpolicy="no-referrer-when-downgrade">
         </iframe>
       </section>
     </div>

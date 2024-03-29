@@ -10,7 +10,7 @@ function FormRow({ name }) {
       <label className={`form-label ${focused ? 'focused-label' : ''}`} htmlFor={name}>
         {name}
       </label>
-      {name === 'message' ? (
+      {name === 'Message' ? (
         <textarea
           id={name}
           className="form-input"

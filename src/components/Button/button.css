@@ -3,31 +3,45 @@
     align-items: center;
     justify-content: space-between;
     gap: 16px;
-    transition: all 0.3s;
-    padding: 16px 32px;
+    margin: 0px;
+    padding: 1.5rem 2rem;
     border: none;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: inherit;
   }
   
   .button span {
     color: #000;
   }
   
-  .button:hover {
-    transform: scale(1.25);
-  }
   
   .black {
     background-color: #333333;
-
+    letter-spacing: 0.256em;
+    line-height: 12px;
+    font-weight: 400;
+    font-family: inherit;
     color:white;
   }
   .black span {
     color: white;
   }
-  .white {
+   .white {
     background-color: #ffffff;
-    color: #000000; 
+    color: #333333;
+    ; 
+    letter-spacing: 0.256em;
+    line-height: 12px;
+    font-weight: 400;
+    font-family: inherit;
   }
   
+  @media (max-width:760px) {
+    .button{
+      gap: 10px;
+      margin: 0px;
+      padding: 1rem 1.5rem;
+      border: none;
+      font-family: inherit;
+      font-size: 10px;
+    }
+  }

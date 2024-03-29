@@ -2,14 +2,14 @@ import React from 'react';
 import { logo } from '../../assets';
 import { contact, navLinks, socialMedia } from '../../constants';
 import './footer.css'
-import footerlogo from '../../assets/footerlogo.png'
+import footerLogo from '../../assets/footerlogo.png'
 
 const Footer = () => {
   return (
     <footer className='footer'>
       <div className='footer-content'>
         <div className='logo-container'>
-            <img src={footerlogo} alt="Logo" className='logo'/></div>
+            <img src={footerLogo} alt="Logo" className='logo'/></div>
         <div className='information'>
           <h1 className='section-title'>Information</h1>
           <ul className='information-list'>

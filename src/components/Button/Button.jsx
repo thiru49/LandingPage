@@ -2,14 +2,14 @@ import React from "react";
 import "./button.css";
 import PropTypes from "prop-types";
 
-const Button = ({ icon, name, color, style }) => {
+const Button = ({ icon, name, color, style,className }) => {
   return (
     <button
-      className={`button ${color === "black" ? "black" : "white"}`}
+      className={`button ${color === "black" ? "black" : "white"} ${className}`}
       style={style}
     >
       {name && <span>{name}</span>}
-      {icon === "leftArow" ? <p>&larr;</p> : <p>&rarr;</p> }
+      {icon === "leftArrow" ? <p>&larr;</p> : <p>&rarr;</p> }
     </button>
   );
 };
